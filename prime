@@ -1,0 +1,34 @@
+#include<stdio.h>
+//int change(int x,int y);//函数声明有分号
+int add(int x,int y)//定义的时候没有分号 //形参
+{
+int m;
+printf("x=%d,y=%d",x,y);
+m=x+y;
+return m;
+}
+int sub(int x,int y)//定义的时候没有分号 //形参
+{
+int m;
+printf("x=%d,y=%d",x,y);
+m=x-y;
+return m;
+}
+int mul(int x,int y)//定义的时候没有分号 //形参
+{
+int m;
+printf("x=%d,y=%d",x,y);
+m=x+y;
+return m;
+}
+main()
+{
+int m,n,c;
+printf("input two number:\n");
+scanf("%d%d",&m,&n);
+c=add(m,n);//实参
+printf("the add:%d",c);
+}
+
+//函数在前面不用声明
+
